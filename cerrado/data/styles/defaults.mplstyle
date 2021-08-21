@@ -138,7 +138,7 @@
 ## Patches are graphical objects that fill 2D space, like polygons or circles.
 ## See https://matplotlib.org/api/artist_api.html#module-matplotlib.patches
 ## for more information on patch properties.
-#patch.linewidth       : 1      ## edge width in points.
+patch.linewidth       : 1.5      ## edge width in points.
 #patch.facecolor       : C0
 #patch.edgecolor       : black  ## if forced, or patch is not filled
 #patch.force_edgecolor : False  ## True to always use edgecolor
@@ -329,7 +329,7 @@
 #mathtext.it  : sans:italic
 #mathtext.bf  : sans:bold
 #mathtext.sf  : sans
-#mathtext.fontset : dejavusans  ## Should be 'dejavusans' (default),
+mathtext.fontset : stix  ## Should be 'dejavusans' (default),
                                 ## 'dejavuserif', 'cm' (Computer Modern), 'stix',
                                 ## 'stixsans' or 'custom'
 #mathtext.fallback_to_cm : True  ## When True, use symbols from the Computer Modern
@@ -349,17 +349,17 @@
 ## https://matplotlib.org/api/axes_api.html#module-matplotlib.axes
 #axes.facecolor     : white   ## axes background color
 #axes.edgecolor     : black   ## axes edge color
-#axes.linewidth     : 0.8     ## edge linewidth
+axes.linewidth     : 1.5     ## edge linewidth
 #axes.grid          : False   ## display grid or not
 #axes.grid.axis     : both    ## which axis the grid should apply to
 #axes.grid.which    : major   ## gridlines at {major, minor, both} ticks
 #axes.titlelocation : center  ## alignment of the title: {left, right, center}
-#axes.titlesize     : large   ## fontsize of the axes title
+axes.titlesize     : 16   ## fontsize of the axes title
 #axes.titleweight   : normal  ## font weight of title
 #axes.titlecolor    : auto    ## color of the axes title, auto falls back to text.color
                               ## as default value
 #axes.titlepad      : 6.0     ## pad between axes and title in points
-#axes.labelsize     : medium  ## fontsize of the x any y labels
+axes.labelsize     : 14  ## fontsize of the x any y labels
 #axes.labelpad      : 4.0     ## space between label and axis
 #axes.labelweight   : normal  ## weight of the x and y labels
 #axes.labelcolor    : black
@@ -439,17 +439,17 @@
 ## ***************************************************************************
 ## See https://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
 xtick.top           : True   ## draw ticks on the top side
-#xtick.bottom        : True    ## draw ticks on the bottom side
-xtick.labeltop      : True   ## draw label on the top
+xtick.bottom        : True    ## draw ticks on the bottom side
+#xtick.labeltop      : True   ## draw label on the top
 #xtick.labelbottom   : True    ## draw label on the bottom
-#xtick.major.size    : 3.5     ## major tick size in points
-#xtick.minor.size    : 2       ## minor tick size in points
-#xtick.major.width   : 0.8     ## major tick width in points
-#xtick.minor.width   : 0.6     ## minor tick width in points
+xtick.major.size    : 7     ## major tick size in points
+xtick.minor.size    : 3       ## minor tick size in points
+xtick.major.width   : 1     ## major tick width in points
+xtick.minor.width   : 1     ## minor tick width in points
 #xtick.major.pad     : 3.5     ## distance to major tick label in points
 #xtick.minor.pad     : 3.4     ## distance to the minor tick label in points
 #xtick.color         : black   ## color of the tick labels
-#xtick.labelsize     : medium  ## fontsize of the tick labels
+xtick.labelsize     : 10  ## fontsize of the tick labels
 xtick.direction     : in     ## direction: {in, out, inout}
 xtick.minor.visible : True   ## visibility of minor ticks on x-axis
 #xtick.major.top     : True    ## draw x axis top major ticks
@@ -458,18 +458,18 @@ xtick.minor.visible : True   ## visibility of minor ticks on x-axis
 #xtick.minor.bottom  : True    ## draw x axis bottom minor ticks
 #xtick.alignment     : center  ## alignment of xticks
 
-#ytick.left          : True    ## draw ticks on the left side
+ytick.left          : True    ## draw ticks on the left side
 ytick.right         : True   ## draw ticks on the right side
 #ytick.labelleft     : True    ## draw tick labels on the left side
-ytick.labelright    : True   ## draw tick labels on the right side
-#ytick.major.size    : 3.5     ## major tick size in points
-#ytick.minor.size    : 2       ## minor tick size in points
-#ytick.major.width   : 0.8     ## major tick width in points
-#ytick.minor.width   : 0.6     ## minor tick width in points
+#ytick.labelright    : True   ## draw tick labels on the right side
+ytick.major.size    : 7     ## major tick size in points
+ytick.minor.size    : 3       ## minor tick size in points
+ytick.major.width   : 1     ## major tick width in points
+ytick.minor.width   : 1     ## minor tick width in points
 #ytick.major.pad     : 3.5     ## distance to major tick label in points
 #ytick.minor.pad     : 3.4     ## distance to the minor tick label in points
 #ytick.color         : black   ## color of the tick labels
-#ytick.labelsize     : medium  ## fontsize of the tick labels
+ytick.labelsize     : 10  ## fontsize of the tick labels
 ytick.direction     : in     ## direction: {in, out, inout}
 ytick.minor.visible : True   ## visibility of minor ticks on y-axis
 #ytick.major.left    : True    ## draw y axis left major ticks
@@ -492,7 +492,7 @@ ytick.minor.visible : True   ## visibility of minor ticks on y-axis
 ## * LEGEND                                                                  *
 ## ***************************************************************************
 #legend.loc           : best
-#legend.frameon       : True     ## if True, draw the legend on a background patch
+legend.frameon       : False     ## if True, draw the legend on a background patch
 #legend.framealpha    : 0.8      ## legend patch transparency
 #legend.facecolor     : inherit  ## inherit from axes.facecolor; or color spec
 #legend.edgecolor     : 0.8      ## background patch boundary color
@@ -502,7 +502,7 @@ ytick.minor.visible : True   ## visibility of minor ticks on y-axis
 #legend.numpoints     : 1        ## the number of marker points in the legend line
 #legend.scatterpoints : 1        ## number of scatter points
 #legend.markerscale   : 1.0      ## the relative size of legend markers vs. original
-#legend.fontsize      : medium
+legend.fontsize      : 13
 #legend.title_fontsize : None    ## None sets to the same as the default axes.
 
 ## Dimensions as fraction of fontsize:
