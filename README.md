@@ -1,6 +1,6 @@
 # Cerrado
 
 
-A collection of cool color palettes to use for plots based on the Cerrado biome
+A collection of cool color palettes based on the Cerrado biome to use for matplotlib plots 
 
-FAQ about cerrado: https://en.wikipedia.org/wiki/Cerrado
+FAQ about Cerrado: https://en.wikipedia.org/wiki/Cerrado
