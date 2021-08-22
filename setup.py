@@ -7,12 +7,12 @@ from setuptools import setup
 NAME = 'cerrado'
 FULLNAME = "CERRADO"
 VERSION = '0.1'
-DESCRIPTION = 'Cores from Cerrado'
+DESCRIPTION = 'Colors from Cerrado'
 with open("README.rst") as f:
     LONG_DESCRIPTION = ''.join(f.readlines())
-AUTHOR = '''G. Antunes, M. De Pra'''
-AUTHOR_EMAIL = 'gantunes.m@gmail.com'
-MAINTAINER = 'G. Antunes'
+AUTHOR = '''G. Marques, M. De Pra'''
+AUTHOR_EMAIL = 'gabriela.antunesm@gmail.com'
+MAINTAINER = 'G. Marques'
 MAINTAINER_EMAIL = AUTHOR_EMAIL
 URL = 'https://github.com/gantunes/cerrado'
 #LICENSE = 'MIT License'
@@ -48,7 +48,7 @@ if __name__ == '__main__':
           url=URL,
           #   platforms=PLATFORMS,
           #   scripts=SCRIPTS,
-          packages=PACKAGES,
+          packages=PACKAGES, 
           #   ext_modules=EXT_MODULES,
           package_data=PACKAGE_DATA,
           #   classifiers=CLASSIFIERS,

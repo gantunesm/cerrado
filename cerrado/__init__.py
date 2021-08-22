@@ -7,4 +7,4 @@ import os
 PWD = os.path.dirname(os.path.abspath(__file__))
 plt.style.use(f'{PWD}/data/styles/defaults.mplstyle')
 
-set_color('cer1', npallet=6)
+set_color('chuveirinho', npallet=6)
