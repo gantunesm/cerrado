@@ -15,6 +15,15 @@ FAQ about Cerrado: https://en.wikipedia.org/wiki/Cerrado
 Installation
 ------------
 
+If you have `Anaconda <https://www.anaconda.com/distribution/>`_ or `pip <https://pypi.org/project/pip/>`_ installed: 
+Download the last release or clone this repository using git,  unpack it if necessary, go into the directory "*cerrado-master*", and run on a terminal shell:
+
+::
+
+   pip install .
+
 
 Usage 
 -----
+
+For usage examples, take a look at `notebooks <https://github.com/gantunesm/cerrado/tree/main/notebooks>`_.
