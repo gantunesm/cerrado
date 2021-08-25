@@ -1,6 +1,7 @@
 .. image:: https://raw.githubusercontent.com/gantunesm/cerrado/main/docs/images/chuveirinho_banner.png?token=ABGQYMVAXNGSUAULFQP7WQ3BFQNV6
    :align: center
    :scale: 50
+Photo Credits: Marcio Cabral
 
 Cerrado
 =======
