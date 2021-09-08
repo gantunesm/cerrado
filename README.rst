@@ -17,7 +17,7 @@ Installation
 ------------
 
 If you have `Anaconda <https://www.anaconda.com/distribution/>`_ or `pip <https://pypi.org/project/pip/>`_ installed: 
-Download the last release or clone this repository using git,  unpack it if necessary, go into the directory "*cerrado-master*", and run on a terminal shell:
+Download the lastest release or clone this repository using git,  unpack it if necessary, go into the directory "*cerrado-master*", and run on a terminal shell:
 
 ::
 
