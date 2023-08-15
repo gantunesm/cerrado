@@ -1,0 +1,12 @@
+README.rst
+setup.py
+cerrado/__init__.py
+cerrado/colormaps.py
+cerrado/photo2colors.py
+cerrado.egg-info/PKG-INFO
+cerrado.egg-info/SOURCES.txt
+cerrado.egg-info/dependency_links.txt
+cerrado.egg-info/requires.txt
+cerrado.egg-info/top_level.txt
+cerrado/data/pallets/6colors.csv
+cerrado/data/styles/defaults.mplstyle

@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: cerrado
+Version: 0.1
+Summary: Colors from Cerrado
+Home-page: https://github.com/gantunes/cerrado
+Author: G. Marques, M. De Pra
+Author-email: gabriela.antunesm@gmail.com
+Maintainer: G. Marques
+Maintainer-email: gabriela.antunesm@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
