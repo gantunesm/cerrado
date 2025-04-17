@@ -1,3 +1,5 @@
+![alt text](https://github.com/gantunesm/cerrado/blob/9b72e7dd062c7f7f75bde0f5c9ed3b211e038cf3/docs/images/chuveirinho_banner.png?raw=true)
+
 .. image:: https://raw.githubusercontent.com/gantunesm/cerrado/main/docs/images/chuveirinho_banner.png?token=AB7AWVUIQJXDXNFKAGKE4W3BII2XM
    :align: center
    :scale: 50
